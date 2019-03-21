@@ -1,0 +1,14 @@
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\bin\Debug\netcoreapp2.1\Books_API_Postman_Crud.deps.json
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\bin\Debug\netcoreapp2.1\Books_API_Postman_Crud.runtimeconfig.json
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\bin\Debug\netcoreapp2.1\Books_API_Postman_Crud.runtimeconfig.dev.json
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\bin\Debug\netcoreapp2.1\Books_API_Postman_Crud.dll
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\bin\Debug\netcoreapp2.1\Books_API_Postman_Crud.pdb
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\obj\Debug\netcoreapp2.1\Books_API_Postman_Crud.csprojAssemblyReference.cache
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\obj\Debug\netcoreapp2.1\Books_API_Postman_Crud.csproj.CoreCompileInputs.cache
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\obj\Debug\netcoreapp2.1\Books_API_Postman_Crud.RazorAssemblyInfo.cache
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\obj\Debug\netcoreapp2.1\Books_API_Postman_Crud.RazorAssemblyInfo.cs
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\obj\Debug\netcoreapp2.1\Books_API_Postman_Crud.AssemblyInfoInputs.cache
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\obj\Debug\netcoreapp2.1\Books_API_Postman_Crud.AssemblyInfo.cs
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\obj\Debug\netcoreapp2.1\Books_API_Postman_Crud.RazorTargetAssemblyInfo.cache
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\obj\Debug\netcoreapp2.1\Books_API_Postman_Crud.dll
+C:\Users\Marius si Andrei\Desktop\Books_API_Postman_Crud\Books_API_Postman_Crud\obj\Debug\netcoreapp2.1\Books_API_Postman_Crud.pdb
