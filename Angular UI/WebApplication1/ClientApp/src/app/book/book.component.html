@@ -1,0 +1,26 @@
+<h1>Books</h1>
+
+<p *ngIf="!books"><em>Loading...</em></p>
+
+<table class='table' *ngIf="books">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Author</th>
+      <th>ReleaseDate</th>
+      <th>Description</th>
+      <th>Pages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let book of books">
+      <td>{{ book.id }}</td>
+      <td>{{ book.title }}</td>
+      <td>{{ book.author }}</td>
+      <td>{{ book.releaseDate }}</td>
+      <td>{{ book.description }}</td>
+      <td>{{ book.pages }}</td>
+    </tr>
+  </tbody>
+</table>
