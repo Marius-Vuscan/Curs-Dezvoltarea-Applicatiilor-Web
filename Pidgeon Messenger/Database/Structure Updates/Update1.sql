@@ -1,0 +1,9 @@
+CREATE DATABASE PidgeonMessenger;
+
+USE [Pidgeon Messenger];
+
+CREATE TABLE UserGroup(
+	Id INT IDENTITY(1,1),
+	Name VARCHAR(255) NOT NULL UNIQUE,
+	CONSTRAINT PK_UserGroupId PRIMARY KEY(Id)
+);

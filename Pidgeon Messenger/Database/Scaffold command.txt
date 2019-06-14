@@ -1,0 +1,1 @@
+Scaffold-DbContext -Connection "Data Source=DESKTOP-H595JT5;User ID=marius;Password=marius; Database=Pidgeon Messenger;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir DatabaseModel -context PidgeonContext -Project Pidgeon.Data -force

@@ -1,0 +1,30 @@
+﻿<div class="row">
+    <div class="col-md-3 m-0"></div>
+    <div class="col-md-6 m-0 border p-5">
+        <div class="input-group row m-0">
+            <input type="text" id="addUser" name="addUser" class="form-control" [(ngModel)]="addUser" placeholder="User name" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button class="btn btn bg-light border input-group-text" (click)="ngAddUser(addUser)" id="basic-addon2" [disabled]="!addUser">
+                    <i class="fas fa-user-plus"></i>
+                </button>
+            </div>
+        </div>
+        <div *ngIf="errorMessage" class="alert alert-warning">{{errorMessage}}</div>
+        <div *ngIf="successMessage" class="alert alert-success">{{successMessage}}</div>
+
+        <div class="row mb-5 mx-0" id="messagesArea">
+            <ul id="messagesUl" class="w-100 p-0">
+                <message *ngFor="let m of group.message" [userName]="m.user.userName" [mesage]="m.message1" [date]="m.date"></message>
+            </ul>
+        </div>
+        <div class="input-group row m-0">
+            <input type="text" id="messageInput" name="messageInput" class="form-control" [(ngModel)]="messageInput" placeholder="Message" aria-describedby="basic-addon3">
+            <div class="input-group-append">
+                <button class="btn btn bg-light border input-group-text" (click)="ngSendMessage(messageInput)" id="basic-addon3" [disabled]="!messageInput">
+                    <i class="fas fa-dove"></i>
+                </button>
+            </div>
+        </div>
+        <small class="text-black-50">Every time you send a message you actually send a pidegeon!</small>
+    </div>
+</div>

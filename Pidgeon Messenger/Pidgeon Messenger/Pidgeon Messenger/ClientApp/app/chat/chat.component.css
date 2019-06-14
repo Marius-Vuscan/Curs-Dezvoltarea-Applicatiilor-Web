@@ -1,0 +1,9 @@
+﻿#messagesArea {
+    height: 350px;
+    overflow: auto;
+}
+
+#messagesUl {
+    display: flex;
+    flex-direction: column-reverse;
+}

@@ -1,0 +1,20 @@
+﻿<div class="row">
+    <div class="col-3 m-0"></div>
+    <div class="col-6 m-0 border p-5">
+        <div class="input-group row m-0">
+            <input type="text" id="addGroup" name="addGroup" class="form-control" [(ngModel)]="addGroup" placeholder="Group name" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button class="btn btn bg-light border input-group-text" (click)="ngaddGroup(addGroup)" id="basic-addon2" [disabled]="!addGroup">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+        </div>
+        <div *ngIf="errorMessage" class="alert alert-warning">{{errorMessage}}</div>
+
+        <div class="row">
+            <ul class="w-100">
+                <groupListItem *ngFor="let c of chats" [groupName]="c.group.name" [groupId]="c.group.id"></groupListItem>
+            </ul>
+        </div>
+    </div>
+</div>
